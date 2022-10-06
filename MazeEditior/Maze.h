@@ -8,5 +8,6 @@ public:
 	void initializeMaze();
 	void placeCharacter(char sign, int x, int y);
 	char readCharacter(int x, int y);
+    void displayMaze();
 };
  
