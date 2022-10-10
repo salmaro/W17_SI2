@@ -9,9 +9,8 @@ int main()
 	//CommandManager cmd;
 	//cmd.registerCommand("test", l1);
 	//cmd.mapStringToCommand();
-
-	Maze labirynt;
-	labirynt.displayMaze();
+	CommandManager cmd;
+	cmd.runProgram();
 
 	return 0;
 }
